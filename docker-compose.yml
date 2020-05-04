@@ -1,0 +1,12 @@
+version: "3.1"
+ 
+services:
+  flaskci-jenkins:
+    build:
+      context: .
+    image: flaskci-jenkins
+    ports:
+        - 8080:8080
+        - 50000:50000
+    volumes:
+        - /var/run/docker.sock:/var/run/docker.sock   
