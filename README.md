@@ -1,4 +1,4 @@
-## A Jenkins image for building and testing a Dockerized flask app
+## A Jenkins image for building and testing Dockerized apps
 
 Usage:
 Before building this image you have to create 
